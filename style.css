@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Inconsolata:wght@400;700&family=Space+Mono:ital,wght@1,400;1,700&display=swap');
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f1f7c7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 70vw;
+    height: 80vh;
+    margin-bottom: 7.5vh;
+    border-radius: 15px;
+}
+
+header{
+    background-color: #394F49;
+    width: 100%;
+    height: 7.5vh;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+}
+
+section{
+    background-color: #111816;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.267);
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    padding-top: 5px;
+}
+
+header > div{
+    width: 20px; /*fix*/
+    height: 20px; /*fix*/
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+header > div:nth-child(1){
+    background-color: #FD5C58;
+}
+
+header > div:nth-child(2){
+    background-color: #EFC642;
+}
+
+header > div:nth-child(3){
+    background-color: #51C41F;
+}
+
+header p{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    align-self: center;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+section p{
+    margin-left: 10px;
+}
+
+section input{
+    background-color: transparent;
+    border: none;
+    width: 50%;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+}
+
+section input::placeholder{
+
+}
+
+section .side-text{
+    /*color: #696969;*/
+}
+
+section > div{
+    display: flex;
+    align-items: center;
+}
+
+a:visited{
+    color: white;
+}
+
+a:link{
+    text-decoration:none; 
+    cursor: pointer;
+}
