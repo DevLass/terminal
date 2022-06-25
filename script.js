@@ -25,8 +25,8 @@ prompt_input.addEventListener("keypress", function(e){
         if (command == "!projects"){
             side_text.innerHTML = `
                 My Personal Projects: (Click to see more) <br>
-                <a href="#"> Timer</a>  ~ A simple timer with html, css and js <br>
-                <a href="#"> Calculator </a> ~ A calculator with one line Javascript <br>
+                <a href="https://github.com/italicnich/Timer"  target="_blank" rel="external"> Timer</a>  ~ A simple timer with html, css and js <br>
+                <a href="https://github.com/italicnich/Calculator"  target="_blank" rel="external"> Calculator </a> ~ A calculator with one line Javascript <br>
             `
             prompt_input.value = "";
         }
