@@ -35,7 +35,7 @@ prompt_input.addEventListener("keypress", function(e){
             prompt_input.value = "";
         }
     }else{
-        console.log("nao enter");
+        console.log("not enter");
     }
 
 })
